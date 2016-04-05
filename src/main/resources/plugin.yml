@@ -1,0 +1,3 @@
+name: TaskPlugin
+main: io.github.darhkdevelopments.taskplugin.TaskPlugin
+version: 1
