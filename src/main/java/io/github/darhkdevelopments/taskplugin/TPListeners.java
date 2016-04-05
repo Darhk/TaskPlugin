@@ -82,10 +82,10 @@ public class TPListeners implements Listener
 				//System.out.println("Out of Range");
 				IChatBaseComponent[] t2 = new IChatBaseComponent[] 
 				{
-					ChatSerializer.a(this.stringToJSONString(" ")),
-                    ChatSerializer.a(this.stringToJSONString(" ")),
-                    ChatSerializer.a(this.stringToJSONString(" ")),
-                    ChatSerializer.a(this.stringToJSONString(" "))
+				    ChatSerializer.a(this.stringToJSONString(" ")),
+		                    ChatSerializer.a(this.stringToJSONString(" ")),
+		                    ChatSerializer.a(this.stringToJSONString(" ")),
+		                    ChatSerializer.a(this.stringToJSONString(" "))
 				};
 				
 				
@@ -100,10 +100,10 @@ public class TPListeners implements Listener
 				//System.out.println("In Range");
 				IChatBaseComponent[] t2 = new IChatBaseComponent[] 
 				{
-                    ChatSerializer.a(this.stringToJSONString(targetSign.getLine(0))),
-                    ChatSerializer.a(this.stringToJSONString(targetSign.getLine(1))),
-                    ChatSerializer.a(this.stringToJSONString(targetSign.getLine(2))),
-                    ChatSerializer.a(this.stringToJSONString(targetSign.getLine(3)))
+		                    ChatSerializer.a(this.stringToJSONString(targetSign.getLine(0))),
+		                    ChatSerializer.a(this.stringToJSONString(targetSign.getLine(1))),
+		                    ChatSerializer.a(this.stringToJSONString(targetSign.getLine(2))),
+		                    ChatSerializer.a(this.stringToJSONString(targetSign.getLine(3)))
 				};
 				
 				
