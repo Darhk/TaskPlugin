@@ -38,12 +38,8 @@ public class TPListeners implements Listener
 		ArrayList<Block> signs = new ArrayList<Block>();
 		Player p = ev.getPlayer();
 		Location toLocation = ev.getTo();
-		Chunk ch = toLocation.getChunk();
 		World w = toLocation.getWorld();
 		
-		
-		int cX = ch.getX() << 4;
-		int cZ = ch.getZ() << 4;
 		
 		/* block radius check */
 		for(int x = toLocation.getBlockX() - 20; x < toLocation.getBlockX() + 20; x++ )
